@@ -102,11 +102,11 @@ object TwitterProducerRun {
 
     val msgQueue = new LinkedBlockingQueue[String](1000)
 
-    val key = "tM98flv2KuISO6AQBFEUwB0Mv"
-    val seceretKey = "60cwwduSGWafMv11TrAZmqGFxzzBC4VLYBTfJyqAWeNGrOc3b7"
+    val key = ""
+    val seceretKey = ""
 
-    val token = "942015555216793601-TTr7aMcEUtNHWlpFvQsrL7xg8vUpPiG"
-    val secrettoken = "xJ8VCGhUWSThE7KLeYfYwgDAdQiXJtlcs26uVUZ5MvJpE"
+    val token = ""
+    val secrettoken = ""
 
     val tweetProducer = new TwitterProducer(key,seceretKey,token,secrettoken,msgQueue)
 

@@ -25,11 +25,11 @@ class ElasticConsumer{
 
     //https://cwfikhcqkb:5vs3i7na49@viny-demo-8382677439.us-west-2.bonsaisearch.net:443
 
-    val hostname = "viny-demo-8382677439.us-west-2.bonsaisearch.net"
+    val hostname = ""
     // localhost or bonsai url
-    val username = "cwfikhcqkb"
+    val username = ""
     // needed only for bonsai
-    val password = "5vs3i7na49"
+    val password = ""
     // credentials provider help supply username and password
     val credentialsProvider = new BasicCredentialsProvider
     credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password))
